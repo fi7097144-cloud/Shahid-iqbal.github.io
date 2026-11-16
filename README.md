@@ -27,6 +27,6 @@ Short-form videos and social media content.
 AI-powered business management SaaS concept.
 
 ## Contact
-- LinkedIn: Your LinkedIn URL
-- Email: Your Email
-- Fiverr: Your Fiverr URL
+- LinkedIn:linkedin.com/in/shahid-iqbal-895470355/
+- Email:ai9099144@gmail.com
+- Social Number:+923701872698
