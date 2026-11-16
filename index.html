@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahid Iqbal | Creative Professional</title>
+<meta name="description" content="Shahid Iqbal's portfolio: creative design, video editing, AI photography and digital marketing.">
+
+<style>
+:root {
+  --bg: #10101d;
+  --panel: #1b1b2c;
+  --text: #f7f5ff;
+  --muted: #aaa9c0;
+  --purple: #a78bfa;
+  --pink: #fb71b5;
+  --blue: #67c9ff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.container {
+  width: min(1100px, 90%);
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: 800;
+  background: linear-gradient(90deg,var(--purple),var(--pink));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.navlinks { display: flex; gap: 20px; flex-wrap: wrap; }
+.navlinks a { color: var(--muted); font-size: 14px; }
+.navlinks a:hover { color: var(--pink); }
+
+.hero {
+  padding: 105px 0 90px;
+  text-align: center;
+  background:
+  radial-gradient(ellipse at 20% 20%, #5736a544, transparent 40%),
+  radial-gradient(ellipse at 80% 30%, #d63b9140, transparent 40%);
+}
+
+.tag {
+  display: inline-block;
+  padding: 7px 16px;
+  border: 1px solid #a78bfa66;
+  border-radius: 30px;
+  color: var(--purple);
+  font-size: 13px;
+  margin-bottom: 22px;
+}
+
+h1 {
+  font-size: clamp(42px, 8vw, 76px);
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.gradient {
+  background: linear-gradient(90deg,var(--purple),var(--pink),var(--blue));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero p {
+  color: var(--muted);
+  max-width: 650px;
+  margin: auto;
+  font-size: 17px;
+}
+
+.actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 23px;
+  border-radius: 9px;
+  background: linear-gradient(100deg,#8761f5,#ed65ac);
+  color: white;
+  font-weight: bold;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid #ffffff44;
+}
+
+section { padding: 75px 0; }
+
+.heading { text-align: center; margin-bottom: 38px; }
+.heading h2 { font-size: 34px; }
+.heading p { color: var(--muted); }
+
+.about {
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+  color: var(--muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid #ffffff12;
+  padding: 25px;
+  border-radius: 17px;
+  transition: .25s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: var(--purple);
+}
+
+.card .emoji { font-size: 32px; }
+.card h3 { margin: 12px 0 8px; }
+.card p { color: var(--muted); font-size: 14px; }
+
+.project {
+  min-height: 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project a {
+  color: var(--blue);
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.skill {
+  background: #a78bfa18;
+  border: 1px solid #a78bfa55;
+  color: #d7c8ff;
+  padding: 9px 16px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.contact {
+  text-align: center;
+  background: linear-gradient(120deg,#5635a52c,#e64d9922);
+  border-radius: 22px;
+  padding: 50px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media(max-width:600px) {
+  nav { justify-content: center; }
+  .navlinks { justify-content: center; }
+  .hero { padding: 75px 0; }
+  section { padding: 55px 0; }
+}
+</style>
+</head>
+
+<body>
+
+<header class="container">
+<nav>
+  <a class="logo" href="#">SHAHID.</a>
+  <div class="navlinks">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+</header>
+
+<main>
+<div class="hero">
+  <div class="container">
+    <span class="tag">CREATIVE PROFESSIONAL & DIGITAL ENTHUSIAST</span>
+    <h1>Hi, I'm Shahid <br><span class="gradient">Iqbal.</span></h1>
+    <p>
+      I combine creativity, technology and marketing
+      to create digital experiences, visual content
+      and business solutions.
+    </p>
+    <div class="actions">
+      <a class="btn" href="#projects">Explore My Work ↗</a>
+      <a class="btn secondary" href="#contact">Contact Me</a>
+    </div>
+  </div>
+</div>
+
+<section id="about" class="container">
+  <div class="heading"><h2>About Me</h2></div>
+  <div class="about">
+    <p>
+      I'm Shahid Iqbal, a creative professional interested
+      in graphic design, video editing, AI-powered image
+      creation and digital marketing. I enjoy learning
+      new technologies and turning ideas into practical
+      digital projects.
+    </p>
+  </div>
+</section>
+
+<section id="services" class="container">
+  <div class="heading">
+    <h2>What I Do</h2>
+    <p>Creative services and digital solutions</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="emoji">🎨</div>
+      <h3>Graphic Design</h3>
+      <p>Brand identity, posters, social media graphics and visual design.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🎬</div>
+      <h3>Video Editing</h3>
+      <p>Short-form videos, YouTube Shorts, Reels and promotional content.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">✨</div>
+      <h3>AI Photography</h3>
+      <p>AI-assisted product visuals, image enhancement and retouching.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">📈</div>
+      <h3>Digital Marketing</h3>
+      <p>Social media strategy, advertising and audience growth.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="container">
+  <div class="heading">
+    <h2>Featured Projects</h2>
+    <p>A selection of my creative and business work</p>
+  </div>
+
+  <div class="grid">
+    <div class="card project">
+      <div>
+        <div class="emoji">🛍️</div>
+        <h3>Product Image Retouching</h3>
+        <p>Product image enhancement and professional visual presentation.</p>
+      </div>
+      <a href="https://www.behance.net/" target="_blank">View project ↗</a>
+    </div>
+
+    <div class="card project">
+      <div>
+        <div class="emoji">🎥</div>
+        <h3>Social Media Videos</h3>
+        <p>Short-form editing and engaging social media content.</p>
+      </div>
+      <a href="https://www.youtube.com/" target="_blank">View channel ↗</a>
+    </div>
+
+    <div class="card project">
+      <div>
+        <div class="emoji">💻</div>
+        <h3>CompanyOS</h3>
+        <p>An AI-powered business management SaaS concept.</p>
+      </div>
+      <a href="https://github.com/" target="_blank">View GitHub ↗</a>
+    </div>
+
+    <div class="card project">
+      <div>
+        <div class="emoji">📊</div>
+        <h3>Marketing Projects</h3>
+        <p>Digital marketing concepts and advertising strategies.</p>
+      </div>
+      <a href="https://www.linkedin.com/" target="_blank">Connect ↗</a>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="container">
+  <div class="heading"><h2>My Skills</h2></div>
+  <div class="skills">
+    <span class="skill">Graphic Design</span>
+    <span class="skill">Video Editing</span>
+    <span class="skill">Figma</span>
+    <span class="skill">Canva</span>
+    <span class="skill">AI Tools</span>
+    <span class="skill">Product Retouching</span>
+    <span class="skill">Social Media Marketing</span>
+    <span class="skill">Meta Ads</span>
+    <span class="skill">Branding</span>
+    <span class="skill">HTML & CSS</span>
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <div class="contact">
+    <div class="heading">
+      <h2>Let's Work Together</h2>
+      <p>Have a project or opportunity? Let's connect.</p>
+    </div>
+    <a class="btn" href="mailto:YOUR_EMAIL@example.com">
+      Email Me ↗
+    </a>
+    <div class="actions">
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://www.behance.net/" target="_blank">Behance</a>
+      <a href="https://www.fiverr.com/" target="_blank">Fiverr</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  © 2026 Shahid Iqbal. All rights reserved.
+</footer>
+
+</body>
+</html>
